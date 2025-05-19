@@ -1,4 +1,5 @@
 import { nanoid } from "nanoid";
+
 function Cities() {
   return [
     {
@@ -17,8 +18,8 @@ function Cities() {
           на Черноморском побережье Кавказа. Там жили колхи — 
           племена южного и юго-восточного Причерноморья.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "/images/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "/images/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: "@src/images/Gagra/gagra-1.jpg", alt: "Gagra" },
+            { title: "gagra-2", src: "@src/images/Gagra/gagra-2.jpg", alt: "Gagra" },
           ],
         },
         {
@@ -32,8 +33,8 @@ function Cities() {
           лет назад.История города насчитывает более 2500 лет. Это один из 
           древнейших городов мира.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "/images/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "/images/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: "../images/gagra-1.jpg", alt: "Gagra" },
+            { title: "gagra-2", src: "../images/gagra-1.jpg", alt: "Gagra" },
           ],
         },
         {
