@@ -1,7 +1,10 @@
-function Country() {
+function Country({ children }) {
   return (
-    <div className="">Country</div>
-  )
+    <>
+      <h4>Country</h4>
+      {children}
+    </>
+  );
 }
 
-export default Country
+export default Country;
