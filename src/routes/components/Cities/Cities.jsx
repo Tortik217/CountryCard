@@ -18,8 +18,8 @@ function Cities() {
           на Черноморском побережье Кавказа. Там жили колхи — 
           племена южного и юго-восточного Причерноморья.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "@src/images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "@src/images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: '../../../images/Gagra/gagra-1.jpg', alt: "Gagra" },
+            { title: "gagra-2", src: '../../../images/Gagra/gagra-1.jpg', alt: "Gagra" },
           ],
         },
         {
