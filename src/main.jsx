@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import Root from "./routes/root";
 import React from "react";
 import City from "./routes/components/City/City";
+import CountryPanel from "./routes/components/CountryPanel/CountryPanel";
 
 import "./index.css";
 
@@ -13,13 +14,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     children: [
-      {
-        path: "city/:id",
-        element: <City />,
-      },
+      { index: true, element: <CountryPanel /> },
+      { path: "city/:id", element: <City /> },
     ],
   },
 ]);
+
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -1,4 +1,16 @@
-function City({ city }) {
+import { useParams, useOutletContext } from "react-router-dom";
+
+function City() {
+  const { id } = useParams();
+  const { countries } = useOutletContext();
+
+  const city = countries
+  .flatMap((country) => country.cities)
+  .find((city) => city.id.toString() === id);
+
+
+  if (!city) return <p>Город не найден</p>;
+
   return (
     <div className="card" style={{ width: "18rem" }}>
       <div className="card-body">

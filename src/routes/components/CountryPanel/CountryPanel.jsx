@@ -1,11 +1,10 @@
 import City from "../City/City";
 import Country from "../Country/Country";
-import Cities from "../Cities/Cities";
-import { NavLink } from "react-router-dom";
+import { NavLink, useOutletContext } from "react-router-dom";
 
 
 function CountryPanel() {
-  const countries = Cities();
+  const { countries } = useOutletContext();
 
   return (
     <div className="wrapper border border-primary rounded-3 p-4">
@@ -23,6 +22,7 @@ function CountryPanel() {
           </Country>
         ))}
       </div>
+      
     </div>
   );
 }
