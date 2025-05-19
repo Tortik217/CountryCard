@@ -1,7 +1,11 @@
 import City from "../City/City";
 import Country from "../Country/Country";
+import Cities from "../Cities/Cities";
 
 function CountryPanel() {
+
+const films = Cities()
+
   return (
     <div
       className="
@@ -14,7 +18,9 @@ function CountryPanel() {
         <Country />
       </div>
       <div className="Cities">
-        <City />
+         {films.map(item => (
+        <div key={item.id}>{item.title}</div>
+      ))}
       </div>
     </div>
   );
