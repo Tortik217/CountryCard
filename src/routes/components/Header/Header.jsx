@@ -1,15 +1,17 @@
+import { NavLink } from "react-router-dom";
+
 function Header() {
   return (
     <ul className="nav nav-underline m-3">
       <li className="nav-item">
-        <a className="nav-link" aria-current="page" href="#">
+        <NavLink className="nav-link" aria-current="page" to={"/"}>
           Country Panel
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <NavLink className="nav-link" to={"/"}>
           Main
-        </a>
+        </NavLink>
       </li>
     </ul>
   );

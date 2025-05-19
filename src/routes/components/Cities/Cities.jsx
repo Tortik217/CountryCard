@@ -1,6 +1,4 @@
 import { nanoid } from "nanoid";
-import "../../../images";
-
 function Cities() {
   return [
     {

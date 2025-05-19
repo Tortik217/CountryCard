@@ -3,11 +3,9 @@ import Header from "./components/Header/Header";
 
 function Root() {
   return (
-    <div className="
-    container 
-    d-flex flex-column j
-    ustify-content-center 
-    align-items-center">
+    <div
+      className="container d-flex flex-column justify-content-center align-items-center"
+    >
       <Header />
       <CountryPanel />
     </div>
