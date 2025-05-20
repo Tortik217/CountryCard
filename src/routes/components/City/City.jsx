@@ -2,25 +2,25 @@ import { useParams, useOutletContext } from "react-router-dom";
 
 function City() {
   const { id } = useParams();
-  const { countries } = useOutletContext();
+  const { city } = useOutletContext();
 
-  const city = countries
+  const cityMap = city
     .flatMap((country) => country.cities)
-    .find((city) => city.id.toString() === id);
+    .find((cityMap) => cityMap.id.toString() === id);
 
-  if (!city) return <p>Город не найден</p>;
+  if (!cityMap) return <p>Город не найден</p>;
 
   return (
     <div className="card" style={{ width: "25rem" }}>
       <div className="card-body">
-        <h5 className="card-title">{city.title}</h5>
-        <p className="card-text">{city.peopleCount}</p>
-        <p className="card-text">{city.title}</p>
-        <p className="card-text">{city.area}</p>
-        <p className="card-text">{city.dateOfFoundation}</p>
-        <p className="card-text">{city.history}</p>
+        <h5 className="card-title">{cityMap.title}</h5>
+        <p className="card-text">{cityMap.peopleCount}</p>
+        <p className="card-text">{cityMap.title}</p>
+        <p className="card-text">{cityMap.area}</p>
+        <p className="card-text">{cityMap.dateOfFoundation}</p>
+        <p className="card-text">{cityMap.history}</p>
         <div className="text-center">
-          {city.imgOfAttractions.map((img, index) => (
+          {cityMap.imgOfAttractions.map((img, index) => (
             <img
               key={index}
               src={img.src}

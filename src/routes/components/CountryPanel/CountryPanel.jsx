@@ -3,12 +3,12 @@ import { NavLink, useOutletContext } from "react-router-dom";
 
 
 function CountryPanel() {
-  const { countries } = useOutletContext();
+  const { city } = useOutletContext();
 
   return (
     <div className="wrapper border border-primary rounded-3 p-4">
       <div className="country d-flex gap-4 ">
-        {countries.map((country) => (
+        {city.map((country) => (
           <Country key={country.id} title={country.title}>
             <div className="Cities d-flex gap-3">
               {country.cities.map((city) => (

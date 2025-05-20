@@ -1,4 +1,4 @@
-import Cities from "./components/Cities/Cities";
+import Cities from "../data/Cities";
 import CountryPanel from "./components/CountryPanel/CountryPanel";
 import Header from "./components/Header/Header";
 import { Outlet } from "react-router-dom";

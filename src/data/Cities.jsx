@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
-import img from '../../../../public/images/Gagra/gagra-1.jpg';
+import img from '/images/Gagra/gagra-1.jpg';
+import img2 from '/images/Gagra/gagra-2.jpg';
 
 function Cities() {
   return [
@@ -20,7 +21,7 @@ function Cities() {
           племена южного и юго-восточного Причерноморья.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
         {
@@ -35,7 +36,7 @@ function Cities() {
           древнейших городов мира.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
         {
@@ -50,7 +51,7 @@ function Cities() {
           Является приморским климатическим курортом.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
       ],
@@ -70,7 +71,7 @@ function Cities() {
           роскошь и богатство соседствует с нищетой.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
         {
@@ -86,7 +87,7 @@ function Cities() {
            памятник, который находится на территории города.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
         {
@@ -100,7 +101,7 @@ function Cities() {
           в 1944 году. В 1884 году дворец был куплен Магараджей Майсура — Чамараей Водеяром.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
       ],
@@ -124,7 +125,7 @@ function Cities() {
           исторический музей и собор Василия Блаженного с красочными луковичными куполами`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
         {
@@ -139,7 +140,7 @@ function Cities() {
           в своем извечном соперничестве с Москвой.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
         {
@@ -154,7 +155,7 @@ function Cities() {
           также известен под брендом “Третья столица России”.`,
           imgOfAttractions: [
             { title: "gagra-1", src: img, alt: "Gagra" },
-            { title: "gagra-2", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img2, alt: "Gagra" },
           ],
         },
       ],
@@ -163,40 +164,3 @@ function Cities() {
 }
 
 export default Cities;
-
-/*[
-    {
-      id: nanoid(5),
-      title: 'Tokyo',
-      peopleCount: 123456,
-      area: 1234,
-      dateOfFoundation: 1986,
-      history: 'Qwerty',
-      imgOfAttractions: ''
-    },
-    {
-      id: nanoid(5),
-      title: 'Pekin',
-      peopleCount: 123456,
-      area: 1234,
-      dateOfFoundation: 1986,
-      history: 'Qwerty',
-      imgOfAttractions: ''
-    },{
-      id: nanoid(5),
-      title: 'Shanhai',
-      peopleCount: 123456,
-      area: 1234,
-      dateOfFoundation: 1986,
-      history: 'Qwerty',
-      imgOfAttractions: ''
-    },{
-      id: nanoid(5),
-      title: 'Mumbai',
-      peopleCount: 123456,
-      area: 1234,
-      dateOfFoundation: 1986,
-      history: 'Qwerty',
-      imgOfAttractions: ''
-    },
-  ] */
