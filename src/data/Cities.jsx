@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-// import img from '../../../../public/images/Gagra/gagra-1.jpg';
+import img from '../../../../public/images/Gagra/gagra-1.jpg';
 
 function Cities() {
   return [
@@ -19,8 +19,8 @@ function Cities() {
           на Черноморском побережье Кавказа. Там жили колхи — 
           племена южного и юго-восточного Причерноморья.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: '../../../../images/Gagra/gagra-1.jpg', alt: "Gagra" },
-            { title: "gagra-2", src: '../../../images/Gagra/gagra-2.jpg', alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
         {
@@ -34,8 +34,8 @@ function Cities() {
           лет назад.История города насчитывает более 2500 лет. Это один из 
           древнейших городов мира.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
         {
@@ -49,8 +49,8 @@ function Cities() {
           зоне влажных субтропиков, по территории города протекает река Гудоу. 
           Является приморским климатическим курортом.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
       ],
@@ -69,8 +69,8 @@ function Cities() {
           центров Индии; представляет собой город больших контрастов, где 
           роскошь и богатство соседствует с нищетой.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
         {
@@ -85,8 +85,8 @@ function Cities() {
           знаменитый Тадж-Махал. Однако это далеко не единственный исторический
            памятник, который находится на территории города.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
         {
@@ -99,8 +99,8 @@ function Cities() {
           считается Бангалорский дворец. Его строительство было начато в 1862 и закончилось 
           в 1944 году. В 1884 году дворец был куплен Магараджей Майсура — Чамараей Водеяром.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
       ],
@@ -123,8 +123,8 @@ function Cities() {
           символический центр России. Здесь можно увидеть Мавзолей В. И. Ленина, Государственный 
           исторический музей и собор Василия Блаженного с красочными луковичными куполами`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
         {
@@ -138,8 +138,8 @@ function Cities() {
           культурной столицы России и самого европейского города, отличие, которое он стремится сохранить 
           в своем извечном соперничестве с Москвой.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
         {
@@ -153,8 +153,8 @@ function Cities() {
           В Казани есть Казанский Кремль, который является объектом Всемирного наследия ЮНЕСКО. Город 
           также известен под брендом “Третья столица России”.`,
           imgOfAttractions: [
-            { title: "gagra-1", src: "../../../../images/Gagra/gagra-1.jpg", alt: "Gagra" },
-            { title: "gagra-2", src: "../../../../images/Gagra/gagra-2.jpg", alt: "Gagra" },
+            { title: "gagra-1", src: img, alt: "Gagra" },
+            { title: "gagra-2", src: img, alt: "Gagra" },
           ],
         },
       ],

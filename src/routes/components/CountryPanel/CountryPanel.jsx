@@ -1,4 +1,3 @@
-import City from "../City/City";
 import Country from "../Country/Country";
 import { NavLink, useOutletContext } from "react-router-dom";
 
@@ -13,7 +12,6 @@ function CountryPanel() {
           <Country key={country.id} title={country.title}>
             <div className="Cities d-flex gap-3">
               {country.cities.map((city) => (
-                // <City key={city.id} city={city} />
                 <li key={city.id}>
                   <NavLink to={`/city/${city.id}`}>{city.title}</NavLink>
                 </li>
