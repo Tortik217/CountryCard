@@ -11,14 +11,21 @@ function City() {
   if (!cityMap) return <p>Город не найден</p>;
 
   return (
-    <div className="card" style={{ width: "25rem" }}>
-      <div className="card-body">
+    <div className="card" style={{ width: "30rem" }}>
+      <div className="card-body d-flex flex-column gap-3">
         <h5 className="card-title">{cityMap.title}</h5>
-        <p className="card-text">{cityMap.peopleCount}</p>
-        <p className="card-text">{cityMap.title}</p>
-        <p className="card-text">{cityMap.area}</p>
-        <p className="card-text">{cityMap.dateOfFoundation}</p>
-        <p className="card-text">{cityMap.history}</p>
+        <div className="card-text">
+          <strong>Население: </strong>{cityMap.peopleCount} человек
+        </div>
+        <div className="card-text">
+          <strong>Площадь: </strong>{cityMap.area} км²
+        </div>
+        <div className="card-text">
+          <strong>Дата Основания: </strong>{cityMap.dateOfFoundation} год
+        </div>
+        <div className="card-text">
+          <strong>История: </strong>{cityMap.history}
+        </div>
         <div className="text-center">
           {cityMap.imgOfAttractions.map((img, index) => (
             <img

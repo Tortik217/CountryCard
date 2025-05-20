@@ -1,5 +1,4 @@
-import { useParams } from "react-router-dom";
-import { useOutletContext } from "react-router-dom";
+import { useParams, useOutletContext, NavLink } from "react-router-dom";
 import Country from "./Country";
 
 function CountryPage() {
@@ -19,7 +18,7 @@ function CountryPage() {
       <div className="Cities d-flex gap-3 flex-wrap">
         {sortedCities.map((city) => (
           <li key={city.id}>
-            <a href={`/city/${city.id}`}>{city.title}</a>
+            <NavLink to={`/city/${city.id}`}>{city.title}</NavLink>
           </li>
         ))}
       </div>
