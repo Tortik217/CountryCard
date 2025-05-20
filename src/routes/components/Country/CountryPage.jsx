@@ -9,9 +9,8 @@ function CountryPage() {
   const country = city.find((c) => String(c.id) === id);
 
   const sortedCities = [...country.cities].sort((a, b) =>
-  a.title.localeCompare(b.title)
-);
-
+    a.title.localeCompare(b.title)
+  );
 
   if (!country) return <p>Страна не найдена</p>;
 

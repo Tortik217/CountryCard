@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
-import img from '/images/Gagra/gagra-1.jpg';
-import img2 from '/images/Gagra/gagra-2.jpg';
+import img from "/images/Gagra/gagra-1.jpg";
+import img2 from "/images/Gagra/gagra-2.jpg";
 
 function Cities() {
   return [

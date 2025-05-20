@@ -8,8 +8,6 @@ import CountryPage from "./routes/components/Country/CountryPage";
 
 import "./index.css";
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,11 +15,10 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <CountryPanel /> },
       { path: "city/:id", element: <City /> },
-      { path: "country/:id", element: <CountryPage /> }
+      { path: "country/:id", element: <CountryPage /> },
     ],
   },
 ]);
-
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
